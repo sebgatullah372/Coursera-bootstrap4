@@ -31,7 +31,8 @@
                 </div>
                 <div class="col-12 col-sm align-self-center">
                     <!--<a class="btn btn-warning btn-block btn-sm" href="#reservetable" role="button" data-toggle="tooltip" data-placement="bottom" title="or call us at +852 1234 5678">Reserve a Table</a>-->
-                    <a class="btn btn-warning btn-block btn-sm" role="button" data-toggle="modal" data-target="#reserveModal">Reserve a Table</a>
+                    <!--<a class="btn btn-warning btn-block btn-sm" role="button" data-toggle="modal" data-target="#reserveModal">Reserve a Table</a>-->
+                    <a class="btn btn-warning btn-block btn-sm" role="button" id="reservebutton">Reserve a Table</a>
                 </div>
             </div>
         </div>
@@ -128,7 +129,8 @@
                     <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-mobile"></span> Contact</a></li>
                 </ul>
                  <span class="navbar-text">
-                    <a data-toggle="modal" data-target="#loginModal">
+                    <!--<a data-toggle="modal" data-target="#loginModal">-->
+                    <a id="loginlink">    
                     <span class="fa fa-sign-in"></span> Login</a>
                 </span> 
                 </div>           
@@ -453,7 +455,7 @@
 
         $(document).ready(function(){
 
-          $('#mycarousel').carousel({ interval: 2000});
+          $('#mycarousel').carousel({ interval: 2000    });
 
           $('#carouselButton').click(function(){
 
@@ -481,6 +483,8 @@
 
 
     </script>
+
+    <script type="text/javascript" src="js/scripts.js"></script>
 </body>
 
 </html>
